@@ -28,16 +28,28 @@ class OtherMatrix:
         
         return pre               
 
-def recall(self, cm, thres_prob, y_predicted, y_true):
-    predictions = y_predicted > thres_prob
+    def recall(self, cm, thres_prob, y_predicted, y_true):
+        predictions = y_predicted > thres_prob
 
-    # reset cunfusion matrix
-    cm.reset()
-    # compute confusion matrix
-    cm.add(predictions, y_true)
-    
-    # recall
-    rec = cm.TP()/(cm.TP() + cm.FN())
-    
-    return rec
-            
+        # reset cunfusion matrix
+        cm.reset()
+        # compute confusion matrix
+        cm.add(predictions, y_true)
+        
+        # recall
+        rec = cm.TP()/(cm.TP() + cm.FN())
+        
+        return rec
+
+    def f1_score(self, cm, thres_prob, y_predicted, y_true):
+        predictions = y_predicted > thres_prob
+
+        # reset cunfusion matrix
+        cm.reset()
+        # compute confusion matrix
+        cm.add(predictions, y_true)
+        
+        # f1 score
+        score = (2*cm.TP())/(2*cm.TP() + cm.FP() + cm.FN())
+        
+        return score

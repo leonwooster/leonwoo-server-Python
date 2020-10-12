@@ -11,6 +11,7 @@ from LogisticRegressionModel import LogisticRegression
 from trainer import Trainer
 from ConfusionClass import ConfusionMatrix
 from OtherMatrixClass import OtherMatrix
+from ROCCurve import ROCCurve
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -90,6 +91,9 @@ print('Precision at threhold 0.5: {0:.3}'.format(pre))
 rec = om.recall(cm, 0.5, y_predicted, y_test)
 print('Recall at threhold 0.5: {0:.3}'.format(rec))
 
+f1_score = om.f1_score(cm, 0.5, y_predicted, y_test)
+print('F1 score at threhold 0.5: {}'.format(f1_score))
+
 ########################0.6
 thres_prob = 0.6
 predictions = y_predicted > thres_prob
@@ -100,4 +104,51 @@ cm.reset()
 # compute confusion matrix
 cm.add(predictions, y_test)
 print('Confusion Matrix for threshold probability 0.6:\n{}'.format(cm.confusion_matrix()))
+
+
+#############################ROC
+thresholds = np.linspace(0.001, 0.999, 1000)
+
+tp_rates = []
+fp_rates = []
+cm = ConfusionMatrix()
+
+for threshold in thresholds:
+
+    # get prediction
+    predictions = y_predicted > threshold
+    
+    # rest confusion matrix
+    cm.reset()
+    
+    # calculate confusion matrixx
+    cm.add(predictions, y_test)
+    
+    # get TP, FP, FN, and TN to calculate TPR and FPR
+    TN = cm.TN()
+    FP = cm.FP()
+    FN = cm.FN()
+    TP = cm.TP()
+
+    # Sensitivity, recall, or true positive rate
+    TPR = TP / (TP + FN)
+    tp_rates.append(TPR)
+
+    # False positive rate
+    FPR = FP / (FP + TN)
+    fp_rates.append(FPR)
+
+plt.plot(fp_rates, tp_rates, label='ROC curve', color='b')
+plt.plot([0, 1], [0, 1], label='Random Classifier (AUC = 0.5)', linestyle='--', lw=2, color='r')
+plt.xlabel('False Positive Rate')
+plt.ylabel('True Positive Rate')
+plt.legend(loc="lower right")
+plt.title('ROC Curve')
+plt.show()
+
+roc_auc = ROCCurve(y_test, y_predicted)
+roc_auc.plot_roc()
+
+roc_auc_score, fpr, tpr = roc_auc.get_auc_score()
+print('ROC AUC Score: {0:.3}'.format(roc_auc_score))
 
