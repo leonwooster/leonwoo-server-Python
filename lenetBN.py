@@ -9,7 +9,7 @@ class LeNetBN(nn.Module):
         # convolution layers
         self._body = nn.Sequential(
             # First convolution Layer
-            # input size = (32, 32), output size = (28, 28)
+            # input size = (32, 32), output size = (28, 28) --> [(W−K+2P)/S]+1
             nn.Conv2d(in_channels=1, out_channels=6, kernel_size=5),
             nn.BatchNorm2d(6),
             # ReLU activation

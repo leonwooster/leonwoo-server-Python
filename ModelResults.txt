@@ -1,0 +1,19 @@
+cock.jpg
+resnet50 10.937s 
+cock: 57.43%
+hen: 42.37
+
+alexnet 14.758s
+cock: 80.4
+hen: 19.56
+
+
+
+cock1.jpg
+resnet50 10.306s 
+lorikeet: 44.58%
+flamingo: 32.45
+
+alexnet 7.14
+gold fish: 41.58
+toucan: 37.62
