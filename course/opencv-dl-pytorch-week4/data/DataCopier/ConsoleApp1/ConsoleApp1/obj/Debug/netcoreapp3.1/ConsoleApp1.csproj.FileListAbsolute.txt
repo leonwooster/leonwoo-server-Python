@@ -1,0 +1,11 @@
+Y:\Test_Projects\Python\course\opencv-dl-pytorch-week4\data\DataCopier\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+Y:\Test_Projects\Python\course\opencv-dl-pytorch-week4\data\DataCopier\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+Y:\Test_Projects\Python\course\opencv-dl-pytorch-week4\data\DataCopier\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+Y:\Test_Projects\Python\course\opencv-dl-pytorch-week4\data\DataCopier\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+Y:\Test_Projects\Python\course\opencv-dl-pytorch-week4\data\DataCopier\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+Y:\Test_Projects\Python\course\opencv-dl-pytorch-week4\data\DataCopier\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+Y:\Test_Projects\Python\course\opencv-dl-pytorch-week4\data\DataCopier\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+Y:\Test_Projects\Python\course\opencv-dl-pytorch-week4\data\DataCopier\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+Y:\Test_Projects\Python\course\opencv-dl-pytorch-week4\data\DataCopier\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+Y:\Test_Projects\Python\course\opencv-dl-pytorch-week4\data\DataCopier\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+Y:\Test_Projects\Python\course\opencv-dl-pytorch-week4\data\DataCopier\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb

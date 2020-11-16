@@ -1575,3 +1575,97 @@
 2020-11-12T13:30:04.920Z - debug:  [09744] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
 
 2020-11-12T13:30:04.921Z - error:  [09744] Execution of the TFVC command line failed unexpectedly.
+2020-11-14T08:39:20.231Z - info:   [19268] *** FOLDER: y:\Test_Projects\Python ***
+2020-11-14T08:39:20.232Z - info:   [19268] AzureReposVSCode/1.161.1 (VSCode 1.50.1; Windows_NT 10.0.17134; Node 12.14.1)
+2020-11-14T08:39:20.233Z - debug:  [19268] Looking for an External Context at y:\Test_Projects\Python
+2020-11-14T08:39:20.233Z - debug:  [19268] No External Context at y:\Test_Projects\Python
+2020-11-14T08:39:20.241Z - debug:  [19268] Looking for TFVC repository at y:\Test_Projects\Python
+2020-11-14T08:39:20.241Z - debug:  [19268] TFVC Creating Tfvc object with localPath='undefined'
+2020-11-14T08:39:20.243Z - debug:  [19268] Using TFS proxy: 
+2020-11-14T08:39:20.243Z - debug:  [19268] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2020-11-14T08:39:20.270Z - debug:  [19268] TFVC Repository created with repositoryRootFolder='y:\Test_Projects\Python'
+2020-11-14T08:39:20.271Z - debug:  [19268] TFVC Repository.CheckVersion
+2020-11-14T08:39:20.272Z - debug:  [19268] TFVC: tf add -noprompt -?
+2020-11-14T08:39:20.352Z - debug:  [19268] TFVC: spawned new process (duration: 79ms)
+2020-11-14T08:39:20.366Z - debug:  [19268] TFVC: spawned new process (duration: 11ms)
+2020-11-14T08:39:33.304Z - debug:  [19268] TFVC: add exit code: 0 (duration: 13031ms)
+2020-11-14T08:39:33.305Z - debug:  [19268] TFVC Minimum required version: 14.102.0
+2020-11-14T08:39:33.305Z - debug:  [19268] TFVC (TF.exe, TF.cmd) version: 15.123.27127.4
+2020-11-14T08:39:33.306Z - debug:  [19268] TFVC Repository.FindWorkspace with localPath='y:\Test_Projects\Python'
+2020-11-14T08:39:33.307Z - debug:  [19268] TFVC: tf workfold -noprompt y:\Test_Projects\Python
+2020-11-14T08:39:33.313Z - debug:  [19268] TFVC: spawned new process (duration: 5ms)
+2020-11-14T08:39:49.512Z - debug:  [19268] TFVC: workfold exit code: 100 (duration: 16205ms)
+2020-11-14T08:39:49.515Z - debug:  [19268] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2020-11-14T08:39:49.516Z - error:  [19268] Execution of the TFVC command line failed unexpectedly.
+2020-11-14T08:40:33.792Z - debug:  [19268] Reinitializing due to onDidChangeConfiguration
+2020-11-14T08:40:33.795Z - debug:  [19268] Polling interval value (minutes): 5
+2020-11-14T08:40:33.795Z - debug:  [19268] Polling interval must be greater than 10 minutes.
+2020-11-14T08:40:33.804Z - info:   [19268] *** FOLDER: y:\Test_Projects\Python ***
+2020-11-14T08:40:33.805Z - info:   [19268] AzureReposVSCode/1.161.1 (VSCode 1.50.1; Windows_NT 10.0.17134; Node 12.14.1)
+2020-11-14T08:40:33.806Z - debug:  [19268] Looking for an External Context at y:\Test_Projects\Python
+2020-11-14T08:40:33.806Z - debug:  [19268] No External Context at y:\Test_Projects\Python
+2020-11-14T08:40:33.818Z - debug:  [19268] Looking for TFVC repository at y:\Test_Projects\Python
+2020-11-14T08:40:33.818Z - debug:  [19268] TFVC Creating Tfvc object with localPath='undefined'
+2020-11-14T08:40:33.820Z - debug:  [19268] Using TFS proxy: 
+2020-11-14T08:40:33.820Z - debug:  [19268] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2020-11-14T08:40:33.821Z - debug:  [19268] TFVC Repository created with repositoryRootFolder='y:\Test_Projects\Python'
+2020-11-14T08:40:33.822Z - debug:  [19268] TFVC Repository.CheckVersion
+2020-11-14T08:40:33.823Z - debug:  [19268] TFVC: tf add -noprompt -?
+2020-11-14T08:40:33.830Z - debug:  [19268] TFVC: spawned new process (duration: 6ms)
+2020-11-14T08:40:33.969Z - debug:  [19268] TFVC: add exit code: 0 (duration: 146ms)
+2020-11-14T08:40:33.970Z - debug:  [19268] TFVC Minimum required version: 14.102.0
+2020-11-14T08:40:33.970Z - debug:  [19268] TFVC (TF.exe, TF.cmd) version: 15.123.27127.4
+2020-11-14T08:40:33.971Z - debug:  [19268] TFVC Repository.FindWorkspace with localPath='y:\Test_Projects\Python'
+2020-11-14T08:40:33.974Z - debug:  [19268] TFVC: tf workfold -noprompt y:\Test_Projects\Python
+2020-11-14T08:40:33.982Z - debug:  [19268] TFVC: spawned new process (duration: 6ms)
+2020-11-14T08:40:34.713Z - debug:  [19268] TFVC: workfold exit code: 100 (duration: 739ms)
+2020-11-14T08:40:34.715Z - debug:  [19268] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2020-11-14T08:40:34.716Z - error:  [19268] Execution of the TFVC command line failed unexpectedly.
+2020-11-15T13:33:53.144Z - info:   [08536] *** FOLDER: y:\Test_Projects\Python ***
+2020-11-15T13:33:53.144Z - info:   [08536] AzureReposVSCode/1.161.1 (VSCode 1.50.1; Windows_NT 10.0.17134; Node 12.14.1)
+2020-11-15T13:33:53.145Z - debug:  [08536] Looking for an External Context at y:\Test_Projects\Python
+2020-11-15T13:33:53.145Z - debug:  [08536] No External Context at y:\Test_Projects\Python
+2020-11-15T13:33:53.154Z - debug:  [08536] Looking for TFVC repository at y:\Test_Projects\Python
+2020-11-15T13:33:53.154Z - debug:  [08536] TFVC Creating Tfvc object with localPath='undefined'
+2020-11-15T13:33:53.155Z - debug:  [08536] Using TFS proxy: 
+2020-11-15T13:33:53.155Z - debug:  [08536] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2020-11-15T13:33:53.156Z - debug:  [08536] TFVC Repository created with repositoryRootFolder='y:\Test_Projects\Python'
+2020-11-15T13:33:53.157Z - debug:  [08536] TFVC Repository.CheckVersion
+2020-11-15T13:33:53.158Z - debug:  [08536] TFVC: tf add -noprompt -?
+2020-11-15T13:33:53.205Z - debug:  [08536] TFVC: spawned new process (duration: 46ms)
+2020-11-15T13:33:53.216Z - debug:  [08536] TFVC: spawned new process (duration: 8ms)
+2020-11-15T13:34:03.510Z - debug:  [08536] TFVC: add exit code: 0 (duration: 10352ms)
+2020-11-15T13:34:03.512Z - debug:  [08536] TFVC Minimum required version: 14.102.0
+2020-11-15T13:34:03.512Z - debug:  [08536] TFVC (TF.exe, TF.cmd) version: 15.123.27127.4
+2020-11-15T13:34:03.513Z - debug:  [08536] TFVC Repository.FindWorkspace with localPath='y:\Test_Projects\Python'
+2020-11-15T13:34:03.514Z - debug:  [08536] TFVC: tf workfold -noprompt y:\Test_Projects\Python
+2020-11-15T13:34:03.521Z - debug:  [08536] TFVC: spawned new process (duration: 6ms)
+2020-11-15T13:34:08.563Z - debug:  [08536] TFVC: workfold exit code: 100 (duration: 5049ms)
+2020-11-15T13:34:08.570Z - debug:  [08536] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2020-11-15T13:34:08.572Z - error:  [08536] Execution of the TFVC command line failed unexpectedly.
+2020-11-16T04:54:51.635Z - info:   [12296] *** FOLDER: y:\Test_Projects\Python ***
+2020-11-16T04:54:51.637Z - info:   [12296] AzureReposVSCode/1.161.1 (VSCode 1.50.1; Windows_NT 10.0.17134; Node 12.14.1)
+2020-11-16T04:54:51.637Z - debug:  [12296] Looking for an External Context at y:\Test_Projects\Python
+2020-11-16T04:54:51.637Z - debug:  [12296] No External Context at y:\Test_Projects\Python
+2020-11-16T04:54:51.749Z - debug:  [12296] Looking for TFVC repository at y:\Test_Projects\Python
+2020-11-16T04:54:51.750Z - debug:  [12296] TFVC Creating Tfvc object with localPath='undefined'
+2020-11-16T04:54:51.751Z - debug:  [12296] Using TFS proxy: 
+2020-11-16T04:54:51.751Z - debug:  [12296] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\TF.exe'
+2020-11-16T04:54:52.098Z - debug:  [12296] TFVC Repository created with repositoryRootFolder='y:\Test_Projects\Python'
+2020-11-16T04:54:52.100Z - debug:  [12296] TFVC Repository.CheckVersion
+2020-11-16T04:54:52.100Z - debug:  [12296] TFVC: tf add -noprompt -?
+2020-11-16T04:54:52.152Z - debug:  [12296] TFVC: spawned new process (duration: 51ms)
+2020-11-16T04:54:52.161Z - debug:  [12296] TFVC: spawned new process (duration: 7ms)
+2020-11-16T04:55:04.834Z - debug:  [12296] TFVC: add exit code: 0 (duration: 12733ms)
+2020-11-16T04:55:04.835Z - debug:  [12296] TFVC Minimum required version: 14.102.0
+2020-11-16T04:55:04.836Z - debug:  [12296] TFVC (TF.exe, TF.cmd) version: 15.123.27127.4
+2020-11-16T04:55:04.836Z - debug:  [12296] TFVC Repository.FindWorkspace with localPath='y:\Test_Projects\Python'
+2020-11-16T04:55:04.837Z - debug:  [12296] TFVC: tf workfold -noprompt y:\Test_Projects\Python
+2020-11-16T04:55:04.844Z - debug:  [12296] TFVC: spawned new process (duration: 5ms)
+2020-11-16T04:55:20.045Z - debug:  [12296] TFVC: workfold exit code: 100 (duration: 15208ms)
+2020-11-16T04:55:20.047Z - debug:  [12296] TFVC errors (via stderr): Unable to determine the workspace. You may be able to correct this by running 'tf workspaces /collection:TeamProjectCollectionUrl'.
+
+2020-11-16T04:55:20.049Z - error:  [12296] Execution of the TFVC command line failed unexpectedly.
